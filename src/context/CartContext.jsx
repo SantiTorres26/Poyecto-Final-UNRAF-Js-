@@ -8,7 +8,7 @@ export const CartProvider = ({ children }) => {
 
     // Inicializamos el carrito desde localStorage
     const [cart, setCart] = useState(() => {
-        const storedCart = localStorage.getItem("cart");
+        const storedCart = localStorage.getItem("cart"); 
         return storedCart ? JSON.parse(storedCart) : [];
     });
 

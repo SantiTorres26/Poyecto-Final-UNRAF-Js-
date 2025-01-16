@@ -8,6 +8,7 @@ import Cart from "./pages/Cart";
 function App() {
     return (
         <Router>
+            
             <Header />
             
             <Routes>
@@ -17,6 +18,7 @@ function App() {
             </Routes>
         
             <Footer />
+
         </Router>
     );
 }
